@@ -6,7 +6,7 @@
    
 }
 .nav-colour_2{
-    color: #FD6E0A;
+    color: #fd3b0a;
     font-size: 34px;
 }
 /* nav-title-styling */
@@ -188,8 +188,8 @@ header {
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: bold;
-
-  font-weight: normal;
+  text-align: center;
+  font-weight:bolder;
   font-style: normal;
 }
 
@@ -253,4 +253,33 @@ padding: 50px 80px;
 }
 .stattext{
 font-size:20px ;
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #fff;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start left;
+  gap: 8px;
 }
