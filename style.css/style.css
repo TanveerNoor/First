@@ -187,10 +187,11 @@ header {
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: bold;
+  font-optical-sizing: auto;
   text-align: center;
-  font-weight:bolder;
   font-style: normal;
+  font-weight: bolder;
+;
 }
 
 .main {
@@ -282,4 +283,147 @@ font-size:20px ;
   align-items: center;
   justify-content: flex-start left;
   gap: 8px;
+}
+/* section-2 */
+.section-2 {
+  padding: 137px 90px;
+  display: flex;
+  gap: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+  align-items: center;
+
+}
+
+.section-colum {
+  width: 50%;
+
+
+}
+
+
+
+.label-text {
+  text-align: left;
+  padding-bottom: 10 px;
+  font-weight: bold;
+
+
+}
+
+
+
+
+section input[type="text"],
+section input[type="email"],
+section textarea {
+  height: 64px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  border: none;
+  text-align: left;
+}
+
+
+
+
+.section-title-2 {
+  font-size: 70px;
+  color: blue;
+  text-align: left
+}
+
+.btn-primary-2 {
+  height: 64px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #4E47FF;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+.btn-primary-2:hover {
+  background-color: #eeff00;
+  transform: scale(1.05);
+}
+.section-2 {
+  padding: 137px 90px;
+  display: flex;
+  gap: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+  align-items: center;
+
+}
+
+.section-colum {
+  width: 50%;
+
+
+}
+
+
+
+.label-text {
+  text-align: left;
+  padding-bottom: 10 px;
+  font-weight: bold;
+
+
+}
+
+
+
+
+section input[type="text"],
+section input[type="email"],
+section textarea {
+  height: 64px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  border: none;
+  text-align: left;
+}
+
+
+
+
+.section-title-2 {
+  font-size: 70px;
+  color: black;
+  text-align: left
+}
+
+.btn-primary-2 {
+  height: 64px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #4E47FF;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+.btn-primary-2:hover {
+  background-color: orange;
+  transform: scale(1.05);
 }
